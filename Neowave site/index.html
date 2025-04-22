@@ -1,89 +1,78 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Neowave Projects</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neowave</title>
   <link href="https://fonts.googleapis.com/css2?family=Contrail+One&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 </head>
 <body>
-
-  <header class="navbar">
-    <div class="container">
-      <h1 class="logo">Neowave Projects</h1>
-      <nav class="nav">
-        <a href="#inicio">Início</a>
-        <a href="#quem-somos">Quem Somos</a>
-        <a href="#areas">Áreas</a>
-        <a href="#portfolio">Portfólio</a>
-        <a href="#avaliacoes">Avaliações</a>
-        <a href="#contato">Contato</a>
-      </nav>
-    </div>
+  <!-- Header -->
+  <header>
+    <div class="logo">Neowave</div>
+    <nav>
+      <a href="#quem-somos">Quem Somos</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#portfolio">Portfólio</a>
+      <a href="#avaliacoes">Avaliações</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <button class="cta-button">Solicitar Orçamento</button>
   </header>
 
-  <section class="hero" id="inicio">
-    <div class="container">
-      <h2>Transformando ideias em soluções digitais</h2>
-      <p>Bem-vindo à Neowave Projects</p>
+  <!-- Hero Section -->
+  <section id="hero">
+    <div id="particles-js"></div>
+    <div class="hero-content">
+      <h1>Inovação que conecta tecnologia ao futuro</h1>
+      <a href="#portfolio" class="cta-button">Veja nossos projetos</a>
     </div>
   </section>
 
-  <section class="about" id="quem-somos">
-    <div class="container">
-      <h2>Quem Somos</h2>
-      <p>Uma equipe apaixonada por inovação e tecnologia.</p>
-      <ul class="equipe">
-        <li>Felipe Pelissari</li>
-        <li>Hernando Sousa</li>
-        <li>Pedro Amaral</li>
-      </ul>
+  <!-- Quem Somos -->
+  <section id="quem-somos" class="section">
+    <h2>Quem Somos</h2>
+    <div class="team">
+      <div class="member">Felipe Pelissari</div>
+      <div class="member">Hernando Sousa</div>
+      <div class="member">Pedro Amaral</div>
     </div>
   </section>
 
-  <section class="areas" id="areas">
-    <div class="container">
-      <h2>Áreas de Atuação</h2>
-      <div class="cards">
-        <div class="card"><img src="img/web.jpg" alt="Web"><h3>Desenvolvimento Web</h3></div>
-        <div class="card"><img src="img/automacao.jpg" alt="Automação"><h3>Automação</h3></div>
-        <div class="card"><img src="img/social.jpg" alt="Social"><h3>Gerenciamento de Redes Sociais</h3></div>
-        <div class="card"><img src="img/terceirizacao.jpg" alt="Terceirização"><h3>Terceirização de Projetos</h3></div>
-        <div class="card"><img src="img/seo.jpg" alt="SEO"><h3>Otimização de Busca (SEO)</h3></div>
-      </div>
+  <!-- Serviços -->
+  <section id="servicos" class="section">
+    <h2>Áreas de Atuação</h2>
+    <div class="services">
+      <div class="service">Desenvolvimento Web</div>
+      <div class="service">Automação</div>
+      <div class="service">SEO</div>
     </div>
   </section>
 
-  <section class="portfolio" id="portfolio">
-    <div class="container">
-      <h2>Portfólio</h2>
-      <p>Veja alguns dos nossos projetos mais recentes.</p>
-      <!-- Espaço reservado para mostrar trabalhos realizados -->
-      <div class="portfolio-grid">
-        <div class="portfolio-item">Projeto 1</div>
-        <div class="portfolio-item">Projeto 2</div>
-        <div class="portfolio-item">Projeto 3</div>
-      </div>
-    </div>
+  <!-- Portfólio -->
+  <section id="portfolio" class="section">
+    <h2>Portfólio</h2>
+    <div class="portfolio-item">Projeto 1</div>
+    <div class="portfolio-item">Projeto 2</div>
+    <div class="portfolio-item">Projeto 3</div>
   </section>
 
-  <section class="reviews" id="avaliacoes">
-    <div class="container">
-      <h2>Avaliações no Google</h2>
-      <blockquote>"Excelente atendimento e entrega acima das expectativas!"</blockquote>
-      <blockquote>"Profissionais extremamente competentes e dedicados."</blockquote>
-    </div>
+  <!-- Avaliações -->
+  <section id="avaliacoes" class="section">
+    <h2>Avaliações</h2>
+    <blockquote>"Serviço incrível! Altamente recomendados!"</blockquote>
   </section>
 
-  <footer class="footer" id="contato">
-    <div class="container">
-      <h2>Contato</h2>
-      <p>Email: contato@neowaveprojects.com</p>
-      <p>Instagram: <a href="https://instagram.com/neowaveprojects">@neowaveprojects</a></p>
-      <p>&copy; 2025 Neowave Projects. Todos os direitos reservados.</p>
+  <!-- Footer -->
+  <footer id="contato">
+    <div>
+      <a href="#">Instagram</a> |
+      <a href="#">LinkedIn</a> |
+      <a href="#">WhatsApp</a>
     </div>
+    <p>&copy; 2025 Neowave. Todos os direitos reservados.</p>
   </footer>
-
 </body>
 </html>
